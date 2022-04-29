@@ -1,0 +1,8 @@
+embracesource:
+  elasticsearch-plus:
+    datasource:
+      default:
+        enable: true
+        hosts:
+          - localhost:9200
+        scheme: "http"
