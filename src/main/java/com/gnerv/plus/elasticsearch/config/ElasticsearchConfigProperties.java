@@ -1,9 +1,8 @@
-package com.embracesource.plus.elasticsearch.config;
+package com.gnerv.plus.elasticsearch.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import java.util.List;
 import java.util.Map;
 
 /**

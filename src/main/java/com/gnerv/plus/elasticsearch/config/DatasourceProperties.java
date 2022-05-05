@@ -1,4 +1,4 @@
-package com.embracesource.plus.elasticsearch.config;
+package com.gnerv.plus.elasticsearch.config;
 
 import lombok.Data;
 

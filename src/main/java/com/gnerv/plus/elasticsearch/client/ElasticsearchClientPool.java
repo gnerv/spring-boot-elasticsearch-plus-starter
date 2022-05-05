@@ -1,7 +1,7 @@
-package com.embracesource.plus.elasticsearch.client;
+package com.gnerv.plus.elasticsearch.client;
 
-import com.embracesource.plus.elasticsearch.config.DatasourceProperties;
-import com.embracesource.plus.elasticsearch.config.ElasticsearchConfigProperties;
+import com.gnerv.plus.elasticsearch.config.DatasourceProperties;
+import com.gnerv.plus.elasticsearch.config.ElasticsearchConfigProperties;
 import lombok.SneakyThrows;
 import org.apache.commons.pool2.BasePooledObjectFactory;
 import org.apache.commons.pool2.PooledObject;

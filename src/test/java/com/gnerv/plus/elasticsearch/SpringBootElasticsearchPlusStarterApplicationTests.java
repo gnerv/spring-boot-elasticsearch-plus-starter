@@ -1,6 +1,6 @@
-package com.embracesource.plus.elasticsearch;
+package com.gnerv.plus.elasticsearch;
 
-import com.embracesource.plus.elasticsearch.client.ElasticsearchClientPool;
+import com.gnerv.plus.elasticsearch.client.ElasticsearchClientPool;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchRequest;

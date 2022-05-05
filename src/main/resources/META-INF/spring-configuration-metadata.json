@@ -2,19 +2,19 @@
   "groups": [
     {
       "name": "embracesource.elasticsearch-plus",
-      "type": "com.embracesource.plus.elasticsearch.config.ElasticsearchConfigProperties",
-      "sourceType": "com.embracesource.plus.elasticsearch.config.ElasticsearchConfigProperties"
+      "type": "com.gnerv.plus.elasticsearch.config.ElasticsearchConfigProperties",
+      "sourceType": "com.gnerv.plus.elasticsearch.config.ElasticsearchConfigProperties"
     },
     {
       "name": "embracesource.elasticsearch-plus.datasource",
-      "type": "com.embracesource.plus.elasticsearch.config.DatasourceProperties",
-      "sourceType": "com.embracesource.plus.elasticsearch.config.ElasticsearchConfigProperties"
+      "type": "com.gnerv.plus.elasticsearch.config.DatasourceProperties",
+      "sourceType": "com.gnerv.plus.elasticsearch.config.ElasticsearchConfigProperties"
     }
   ],
   "properties":[
     {
       "name": "embracesource.elasticsearch-plus.datasource",
-      "type": "java.util.Map<java.lang.String, com.embracesource.plus.elasticsearch.config.DatasourceProperties>",
+      "type": "java.util.Map<java.lang.String, com.gnerv.plus.elasticsearch.config.DatasourceProperties>",
       "description": "elasticsearch config info map"
     }
   ]

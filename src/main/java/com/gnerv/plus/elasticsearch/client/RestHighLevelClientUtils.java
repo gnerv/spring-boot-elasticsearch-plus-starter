@@ -1,6 +1,6 @@
-package com.embracesource.plus.elasticsearch.client;
+package com.gnerv.plus.elasticsearch.client;
 
-import com.embracesource.plus.elasticsearch.config.DatasourceProperties;
+import com.gnerv.plus.elasticsearch.config.DatasourceProperties;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -14,16 +14,13 @@ import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestClientBuilder;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.util.Assert;
-import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author ligen

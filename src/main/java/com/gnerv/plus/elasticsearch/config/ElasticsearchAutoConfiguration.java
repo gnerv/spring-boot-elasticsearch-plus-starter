@@ -1,6 +1,6 @@
-package com.embracesource.plus.elasticsearch.config;
+package com.gnerv.plus.elasticsearch.config;
 
-import com.embracesource.plus.elasticsearch.client.ElasticsearchClientPool;
+import com.gnerv.plus.elasticsearch.client.ElasticsearchClientPool;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
