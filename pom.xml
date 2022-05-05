@@ -97,7 +97,7 @@
         <tag>master</tag>
         <connection>scm:git:git://github.com/gnerv/spring-boot-elasticsearch-plus-starter.git</connection>
         <developerConnection>scm:git:ssh://github.com/gnerv/spring-boot-elasticsearch-plus-starter.git</developerConnection>
-        <url>https://github.com/gnerv/spring-boot-elasticsearch-plus-starter/tree/master</url>
+        <url>https://github.com/gnerv/spring-boot-elasticsearch-plus-starter/tree/main</url>
     </scm>
     <!-- 开发者信息 -->
     <developers>
