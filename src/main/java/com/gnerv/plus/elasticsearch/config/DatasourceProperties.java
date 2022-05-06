@@ -1,7 +1,11 @@
 package com.gnerv.plus.elasticsearch.config;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -9,6 +13,9 @@ import java.util.List;
  * @since 2022/4/18 09:39
  */
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class DatasourceProperties {
 
     private Boolean enable = true;
@@ -16,12 +23,12 @@ public class DatasourceProperties {
     /**
      * 连接地址 ip:port
      */
-    private List<String> hosts;
+    private List<String> hosts = Collections.singletonList("localhost:9200");
 
     /**
      * 连接协议 http/https
      */
-    private String scheme;
+    private String scheme = "http";
 
     /**
      * 连接超时时间(毫秒)

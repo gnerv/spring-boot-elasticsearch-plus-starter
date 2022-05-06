@@ -1,5 +1,7 @@
 package com.gnerv.plus.elasticsearch.config;
 
+import com.gnerv.plus.elasticsearch.aspect.ElasticsearchDbAspect;
+import com.gnerv.plus.elasticsearch.client.ElasticsearchClient;
 import com.gnerv.plus.elasticsearch.client.ElasticsearchClientPool;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -23,5 +25,12 @@ public class ElasticsearchAutoConfiguration {
     public ElasticsearchClientPool elasticsearchClientPool(){
         return new ElasticsearchClientPool(this.elasticsearchConfigProperties);
     }
+
+    @Bean
+    public ElasticsearchClient elasticsearchClient(){
+        return new ElasticsearchClient(elasticsearchClientPool());
+    }
+
+
 
 }

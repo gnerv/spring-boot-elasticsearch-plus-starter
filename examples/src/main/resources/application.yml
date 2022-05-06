@@ -1,0 +1,7 @@
+embracesource:
+  elasticsearch-plus:
+    datasource:
+      default:
+        enable: true
+      es1:
+        enable: true
